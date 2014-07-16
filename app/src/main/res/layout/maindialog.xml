@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="600px" android:layout_height="430px"
+              android:id="@+id/layout" android:orientation="vertical">
+
+    <ImageView android:id="@+id/dialogImage"
+               android:layout_width="590px" android:layout_height="60px"
+               android:layout_gravity="center" />
+
+    <LinearLayout android:layout_width="600px" android:layout_height="360px"
+                  android:orientation="horizontal" android:id="@+id/lyBottom">
+
+        <LinearLayout android:layout_width="480px" android:layout_height="350px"
+                  android:orientation="vertical" android:id="@+id/lyLeft">
+
+            <TextView android:text="@+id/dialogText" android:id="@+id/dialogText"
+                      android:textSize="30px" android:paddingLeft="10px"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+            <ImageView android:id="@+id/dialogImageObject"
+               android:layout_width="480px" android:layout_height="288px"
+               android:layout_gravity="center" android:paddingLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="120px" android:layout_height="360px" android:paddingTop="30dp"
+                  android:orientation="vertical" android:id="@+id/lyRight">
+
+            <Button android:layout_width="80px"
+                    android:id="@+id/btnAudioClip" android:layout_height="80px"
+                    android:layout_gravity="center" />
+            <Button android:layout_width="80px"
+                    android:id="@+id/btnTag" android:layout_height="80px"
+                    android:layout_gravity="center" />
+
+            <LinearLayout android:paddingTop="15dp" android:layout_height="110px"
+                    android:layout_width="120px" android:orientation="vertical">
+                <Button android:layout_width="90px"
+                        android:id="@+id/btnOK" android:layout_height="90px"
+                        android:textSize="40px" android:textColor="#000099"
+                        android:textStyle="bold" android:layout_gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

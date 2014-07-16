@@ -1,0 +1,99 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/ant.xml
+* .idea/compiler.xml
+* .idea/dictionaries/
+* .idea/dictionaries/Eduardo.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/uiDesigner.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* ANS.iml
+* build.properties
+* build.xml
+* default.properties
+* out/
+* out/production/
+* out/production/ANS/
+* out/production/ANS/ANS.apk
+* out/production/ANS/ANS.apk.res
+* out/production/ANS/ANS.apk.unaligned
+* out/production/ANS/classes.dex
+* out/production/ANS/com/
+* out/production/ANS/com/android/
+* out/production/ANS/com/android/ans/
+* out/production/ANS/com/android/ans/ANS$1.class
+* out/production/ANS/com/android/ans/ANS$10.class
+* out/production/ANS/com/android/ans/ANS$11.class
+* out/production/ANS/com/android/ans/ANS$12.class
+* out/production/ANS/com/android/ans/ANS$13.class
+* out/production/ANS/com/android/ans/ANS$2.class
+* out/production/ANS/com/android/ans/ANS$3.class
+* out/production/ANS/com/android/ans/ANS$4.class
+* out/production/ANS/com/android/ans/ANS$5.class
+* out/production/ANS/com/android/ans/ANS$6.class
+* out/production/ANS/com/android/ans/ANS$7.class
+* out/production/ANS/com/android/ans/ANS$8.class
+* out/production/ANS/com/android/ans/ANS$9.class
+* out/production/ANS/com/android/ans/ANS.class
+* out/production/ANS/com/android/ans/Command.class
+* out/production/ANS/com/android/ans/Preferences$1.class
+* out/production/ANS/com/android/ans/Preferences.class
+* out/production/ANS/com/android/ans/Preview$1.class
+* out/production/ANS/com/android/ans/Preview.class
+* out/production/ANS/com/android/ans/R$attr.class
+* out/production/ANS/com/android/ans/R$drawable.class
+* out/production/ANS/com/android/ans/R$id.class
+* out/production/ANS/com/android/ans/R$layout.class
+* out/production/ANS/com/android/ans/R$menu.class
+* out/production/ANS/com/android/ans/R$raw.class
+* out/production/ANS/com/android/ans/R$string.class
+* out/production/ANS/com/android/ans/R$xml.class
+* out/production/ANS/com/android/ans/R.class
+* out/production/ANS/com/android/ans/Server.class
+* out/production/ANS/com/android/ans/SoundManager.class
+* out/production/ANS/com/android/ans/TAudioNotification.class
+* out/production/ANS/com/android/ans/TNetwork.class
+* out/production/ANS/com/android/ans/TRepository.class
+* out/production/ANS/com/android/ans/TTag.class
+* out/production/ANS/com/android/ans/TVibratingNotification.class
+* out/production/ANS/com/android/ans/TVibration.class
+* out/production/ANS/com/android/ans/Utilities.class
+* out/production/ANS/com/android/ans/WiFiScanReceiver.class
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

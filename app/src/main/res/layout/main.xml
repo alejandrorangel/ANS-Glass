@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:id="@+id/layout">
+
+
+    <edu.cicese.android.ans.Preview
+                 android:id="@+id/lyPreview"
+                 android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <FrameLayout android:id="@+id/lyOverlay"
+                  android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+                  <TextView android:layout_width="wrap_content" android:text="Server"
+			                android:id="@+id/lblServer" android:layout_height="wrap_content"
+                            android:textSize="15sp"/>
+
+    </FrameLayout>
+		<!--android:layout_width="610px" android:layout_height="480px"/>-->
+	<!--<LinearLayout android:layout_width="wrap_content"-->
+		<!--android:layout_height="wrap_content" android:orientation="vertical"-->
+		<!--android:id="@+id/lyRight">-->
+		<!--<TextView android:layout_width="wrap_content" android:text="Server"-->
+			<!--android:layout_height="wrap_content" android:textSize="15sp"-->
+			<!--android:id="@+id/lblServer"/>-->
+		<!--<LinearLayout android:orientation="horizontal"-->
+			<!--android:layout_width="wrap_content" android:layout_height="match_parent"-->
+			<!--android:paddingTop="20px" android:paddingBottom="20px" android:id="@+id/lyButtons1">-->
+			<!--<Button android:text="Tags" android:layout_width="wrap_content"-->
+				<!--android:id="@+id/btnFindTags" android:layout_height="50px"/>-->
+			<!--<Button android:text="Locate" android:layout_width="wrap_content"-->
+				<!--android:id="@+id/btnLocateUser" android:layout_height="50px"/>-->
+		<!--</LinearLayout>-->
+		<!--<LinearLayout android:layout_width="match_parent"-->
+			<!--android:layout_height="wrap_content" android:paddingBottom="20px"-->
+			<!--android:id="@+id/lyButtons2">-->
+			<!--<Button android:layout_width="wrap_content" android:text="CHK Repository"-->
+				<!--android:layout_height="50px" android:id="@+id/btnCheckRepository"/>-->
+		<!--</LinearLayout>-->
+	<!--</LinearLayout>-->
+</FrameLayout>

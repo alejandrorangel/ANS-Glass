@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="700px"
+              android:layout_height="420px"
+              android:orientation="horizontal">
+
+    <ImageView android:id="@+id/dialogImage"
+               android:layout_width="700px" android:layout_height="420px"
+               android:layout_gravity="center" />
+
+    <!--<Button android:text="OK" android:layout_width="90px"
+            android:id="@+id/btnImageOK" android:layout_height="90px"
+            android:textSize="40px" android:textColor="#000099"
+            android:textStyle="bold" android:layout_gravity="center" />-->
+
+</LinearLayout>
