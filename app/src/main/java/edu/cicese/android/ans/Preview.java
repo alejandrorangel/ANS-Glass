@@ -77,15 +77,9 @@ class Preview extends SurfaceView implements SurfaceHolder.Callback { // <1>
 		parameters.setPictureSize(640, 480);
 		parameters.setPreviewSize(Utilities.PREVIEW_WIDTH, Utilities.PREVIEW_HEIGHT);
 		parameters.setPictureFormat(PixelFormat.JPEG);
+        parameters.setPreviewFpsRange(30000,30000);
 		parameters.setJpegQuality(100);
-		//G2
-		parameters.setFocusMode(Camera.Parameters.FOCUS_MODE_AUTO); // FOCUS_MODE_CONTINUOUS_VIDEO API 9
-		parameters.setFlashMode(Camera.Parameters.FLASH_MODE_OFF); // TORCH = Always ON.
-		parameters.setSceneMode(Camera.Parameters.SCENE_MODE_ACTION);
-		/*//Nexuxs S
-		parameters.setFocusMode(Camera.Parameters.FOCUS_MODE_AUTO); // FOCUS_MODE_CONTINUOUS_VIDEO API 9
-		parameters.setFlashMode(Camera.Parameters.FLASH_MODE_OFF); // TORCH = Always ON.
-		parameters.setSceneMode(Camera.Parameters.SCENE_MODE_PARTY);*/
+
 		camera.setParameters(parameters);
 		
 		try {

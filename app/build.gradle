@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "com.android.ans"
-        minSdkVersion 8
-        targetSdkVersion 8
+        minSdkVersion 14
+        targetSdkVersion 14
     }
 
     buildTypes {

@@ -46,7 +46,8 @@ public class Server extends Thread {
 				socket = serverSocket.accept();
                 if (socket != null)
                 {
-//                	DataInputStream dis = new DataInputStream(socket.getInputStream());
+                    uploadRepository();
+// DataInputStream dis = new DataInputStream(socket.getInputStream());
                 	System.out.println("Incoming connection, from " + socket.getInetAddress().getHostAddress() + ".");
 
 	                BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
@@ -248,7 +249,7 @@ public class Server extends Thread {
 		try {
 //			Utilities.findingTags = true;
 			System.out.println("Sending image info.");
-			ANS.capturePicture("img02.jpg");
+			MainActivity.capturePicture("img02.jpg");
 	    	JSONObject jo = new JSONObject();
 	  		jo.put("command", command);
 	  		jo.put("fileSize", new File(Utilities.imageDirectory + "img02.jpg").length());
@@ -289,7 +290,7 @@ public class Server extends Thread {
 		boolean userLocated = location.compareTo("00") != 0;
 		Utilities.userLocationStrength = strength;
 		Utilities.userLocation = location;
-		ANS.updateLocation(userLocated);
+		MainActivity.updateLocation(userLocated);
 		/*Message msg = new Message();
 		Bundle bundle = new Bundle();
 		bundle.putInt("type", Command.MSG_INFO);

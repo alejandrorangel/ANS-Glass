@@ -2,4 +2,5 @@
 <resources>
     <string name="hello">Hello World, SocketTesting!</string>
     <string name="app_name">ANS</string>
+    <string name="show_hello_word">Start ANS</string>
 </resources>

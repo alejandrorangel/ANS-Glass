@@ -29,7 +29,7 @@ public class TQueries extends Thread {
 		while(!threadDone) {
 //			System.err.println("WARN: " + Utilities.serverBusy + " " + Utilities.displayingToast + " " + Utilities.playingClip);
 			if (!Utilities.serverBusy && !Utilities.displayingToast && !Utilities.playingClip) {
-				ANS.query();
+				MainActivity.query();
 			}
 			else {
 				try {

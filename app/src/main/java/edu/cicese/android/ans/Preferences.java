@@ -19,7 +19,7 @@ public class Preferences extends PreferenceActivity {
         serverPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
 			public boolean onPreferenceChange(Preference preference, Object newValue) {
 				Utilities.SERVER_ADDR = newValue.toString();
-				ANS.changeServer(newValue.toString());
+				MainActivity.changeServer(newValue.toString());
 				return true;
 			}
         });

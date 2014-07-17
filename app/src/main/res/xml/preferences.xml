@@ -5,7 +5,7 @@
         <EditTextPreference
             android:name="Server Preference"
             android:summary="Edit repository server IP address"
-            android:defaultValue="158.97.91.13"
+            android:defaultValue="158.97.91.22"
             android:title="Server address"
             android:key="serverPref" />
     </PreferenceCategory>
